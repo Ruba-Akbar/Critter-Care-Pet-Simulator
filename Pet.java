@@ -7,18 +7,29 @@ public class Pet {
 
     // ASCII ART ASSETS
     private static final String CAT_ART = 
-        " |\\__/,| (\n" +
-        " |o o  |__ _)\n" +
-        " _.( T )  /\n" +
-        "((_ ^-- /_< \\\n" +
-        " - (((/ (((/\n";
+        " ,_     _\n" + //
+        " |\\____/|\n" + //
+        " / _  _ |    ,--.\n" + //
+        "(  @  @ )   / ,-'\n" + //
+        " \\  _T_/-._( (\n" + //
+        " /         `. \\\n" + //
+        "|         _  \\ |\n" + //
+        " \\ \\ ,  /      |\n" + //
+        "  || |-_\\__   /\n" + //
+        " ((_/`(____,-'";
 
     private static final String DOG_ART = 
-        "  / \\__\n" +
-        " (    @\\___\n" +
-        " /         O\n" +
-        "/   (_____/\n" +
-        "/_____/   U";
+        "         __\r\n" + //
+        "        /  \\\r\n" + //
+        "       / ..|\\\r\n" + //
+        "      (_\\  |_)\r\n" + //
+        "      /  \\@' \r\n" + //
+        "     /     \\\r\n" + //
+        "_   /  `   |\r\n" + //
+        "\\\\/  \\  | _\\\r\n" + //
+        " \\   /_ || \\\\_\r\n" + //
+        "  \\____)|_) \\_)\r" + //
+        "";
 
     //constructor
     public Pet(String name, String type) {
@@ -41,7 +52,7 @@ public class Pet {
 
     public void printArtWork(){
         if(isCat()) System.out.print("\n" + CAT_ART);
-        if(isCat()) System.out.print("\n" + DOG_ART);
+        if(!isCat()) System.out.print("\n" + DOG_ART);
     }
 
     //actions in game
@@ -97,3 +108,4 @@ public class Pet {
         return hunger == 0 || energy == 0 || social == 0;
     }
 }
+
