@@ -7,7 +7,7 @@ public class PetSim {
     
     String type = "";
 
-    //loop until user inputs a valid choice
+    //loop until user inputs a vaild choice
     while(true) {
       System.out.print("\nTime To Choose Your Pet!!!\n C: Cat\n D: Dog\n Enter: ");
       type = myScanner.nextLine().trim().toLowerCase();
@@ -24,6 +24,7 @@ public class PetSim {
 
     Pet myPet = new Pet(name, type);
     myPet.printArtWork();
+    System.out.println();
     
     String action = "";
     // keep going if action is not q and not not quit
