@@ -2,9 +2,25 @@ import java.util.Scanner;
 
 public class PetSim {
   public static void main(String[] args) {
-    Scanner myScanner = new Scanner(System.in);
-    System.out.print("\n~~Welcome To The Critter Care Pet Simulator~~ ");
-    
+  Scanner myScanner = new Scanner(System.in);
+  System.out.print("\n" +
+"|============================================|\n" +
+"|          WELCOME TO CRITTER CARE           |\n" +
+"|               PET SIMULATOR                |\n" +
+"|============================================|\n" +
+"|    ,_     _                       __       |\n" +
+"|    |\\____/|                      /  \\      |\n" +
+"|    / _  _ |    ,--.             / ..|\\     |\n" +
+"|   (  @  @ )   / ,-'            (_\\  |_)    |\n" +
+"|    \\  _T_/-._( (                /  \\@'     |\n" +
+"|    /         `. \\              /     \\     |\n" +
+"|   |         _  \\ |        _   /  `   |     |\n" +
+"|   \\ \\ ,  /      |        \\\\/  \\  | _\\      |\n" +
+"|    || |-_\\__   /          \\   /_ || \\\\_    |\n" +
+"|   ((_/`(____,-'            \\____)|_) \\_)   |\n" +
+"|============================================|\n");
+
+
     String type = "";
 
     //loop until user inputs a vaild choice
