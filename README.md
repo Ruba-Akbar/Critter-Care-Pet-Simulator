@@ -24,7 +24,7 @@
  Link: https://www.jdoodle.com/ga/plogxkpokTolRfPzrCTWIA%3D%3D 
  
  ## How to Play the Game Locally
- 1. Have the **Jave Development Kit (JDK)** installed on your device.
+ 1. Have the **Java Development Kit (JDK)** installed on your device.
  2. Download `PetSim.java` and `Pet.java` into the same directory.
  3. Open your terminal or command prompt in that directory and compile the files:
  ```bash 
